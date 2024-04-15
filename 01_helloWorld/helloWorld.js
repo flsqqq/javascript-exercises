@@ -1,5 +1,6 @@
 const helloWorld = function() {
-  return ''
+  return 'Hello, World!'
 };
 
+// export function to be imported with `require ()`
 module.exports = helloWorld;
